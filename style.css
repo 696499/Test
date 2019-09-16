@@ -1,0 +1,28 @@
+body{
+	background:;
+}
+
+.head{
+	font-family:arial;
+	font-size:50px;
+	text-align: center;
+}
+
+.intro{
+	font-size: 25px;
+	font-family:Arial;
+	text-align: center;
+}
+
+#row{
+display: block;
+text-align: center; 
+}
+
+#AboutMe{
+	padding:20px;
+	margin: 20px;
+	font-family: Arial;
+	font-size: 18px;
+}
+
