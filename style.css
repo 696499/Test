@@ -1,18 +1,18 @@
+
 body{
-	background:;
+	
+
 }
 
-.head{
-	font-family:arial;
-	font-size:50px;
+p{
+	font-family: Caprica Sans;
+	font-size: 80px;
+	margin: 39px;
+	padding: 39px;
 	text-align: center;
 }
 
-.intro{
-	font-size: 25px;
-	font-family:Arial;
-	text-align: center;
-}
+
 
 #row{
 display: block;
