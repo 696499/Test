@@ -7,7 +7,7 @@ margin:0;
 .intro{
 	font-family: Caprica Sans;
 	font-size: 80px;
-	margin: 39px;
+	margin: 95px;
 	padding: 39px;
 	text-align: center;
 	color: #ffffff;
@@ -52,22 +52,42 @@ li a:hover:not(.active) {
 	background-color: #ddd;
 	border: none;
 	color: black;
-	padding: 16px 32px;
+	padding: 20px 36px;
 	text-align: center;
 	font-size: 16px;
 	margin: 4px 2px;
-	transition: 0.3s ease;
+	transition: 0.7s ease;
 }
 .btn:hover{
 	background-color: #000000;
 	color: white;
 }
-#aboutme{
+#aboutmet{
 	text-align: center;
+	font-size: 40px;
+	font-family: Century Gothic;
 }
 .aboutme{
 	display: inline-block;
 	text-align: center;
 	font-family: Century Gothic;
 	font-size: 30px;
+	padding-bottom: 
+}
+#all{
+	background-color: #ffffff;
+	margin-top: 350px;
+	padding: 20px;
+}
+.footer{
+	position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #999999;
+   color: white;
+   text-align: center;
+}
+#books{
+	
 }

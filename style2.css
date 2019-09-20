@@ -31,3 +31,28 @@ li a:hover:not(.active) {
 .active {
   background-color: #FF01B2;
 }
+.button {
+  background-color: #ffb752; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 10px;
+  cursor: pointer;
+  align-items: center;
+}
+
+.button1 {border-radius: 50%;}
+.button2 {border-radius: 50%;}
+.button3 {border-radius: 50%;}
+.button4 {border-radius: 50%;}
+.button5 {border-radius: 50%;}
+.button6 {border-radius: 50%;}
+.button6 {border-radius: 50%;}
+.button7 {border-radius: 50%;}
+.button8 {border-radius: 50%;}
+.button9 {border-radius: 50%;}
+
