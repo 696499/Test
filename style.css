@@ -20,6 +20,7 @@ display: block;
 text-align: center; 
 }
 
+/*learned from w3schools*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -76,8 +77,8 @@ li a:hover:not(.active) {
 }
 #all{
 	background-color: #ffffff;
-	margin-top: 350px;
-	padding: 20px;
+	margin-top: 360px;
+	padding: 25px;
 }
 .footer{
 	position: fixed;
@@ -88,6 +89,12 @@ li a:hover:not(.active) {
    color: white;
    text-align: center;
 }
-#books{
-	
+.email{
+	position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   background-color: #999999;
+   color: white;
+   text-align: right;
 }
