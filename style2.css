@@ -1,5 +1,5 @@
 body{ 
-background: #db0d44;
+background: #FEC1E3;
 margin:0; 
 }
 
@@ -32,27 +32,21 @@ li a:hover:not(.active) {
   background-color: #FF01B2;
 }
 .button {
-  background-color: #ffb752; /* Green */
+  background-color: #ddd;
   border: none;
-  color: white;
-  padding: 20px;
+  color: black;
+  padding: 20px 36px;
   text-align: center;
-  text-decoration: none;
-  display: inline-block;
   font-size: 16px;
-  margin: 20px 10px;
-  cursor: pointer;
-  align-items: center;
+  margin: 4px 2px;
+  transition: 0.7s ease;
 }
-
-.button1 {border-radius: 50%;}
-.button2 {border-radius: 50%;}
-.button3 {border-radius: 50%;}
-.button4 {border-radius: 50%;}
-.button5 {border-radius: 50%;}
-.button6 {border-radius: 50%;}
-.button6 {border-radius: 50%;}
-.button7 {border-radius: 50%;}
-.button8 {border-radius: 50%;}
-.button9 {border-radius: 50%;}
+.button:hover{
+    background-color: #000000;
+  color: white;
+}
+#row{
+  display: block;
+text-align: center; 
+}
 
