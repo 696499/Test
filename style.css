@@ -5,7 +5,7 @@ margin:0;
 }
 
 .intro{
-	font-family: Caprica Sans;
+	font-family: Gothic Century;
 	font-size: 80px;
 	margin: 95px;
 	padding: 39px;
@@ -72,7 +72,7 @@ li a:hover:not(.active) {
 	display: inline-block;
 	text-align: center;
 	font-family: Century Gothic;
-	font-size: 30px;
+	font-size: 18px;
 	padding-bottom: 
 }
 #all{
@@ -89,12 +89,17 @@ li a:hover:not(.active) {
    color: white;
    text-align: center;
 }
-.email{
-	position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   background-color: #999999;
-   color: white;
-   text-align: right;
+#whitebutton{
+    background-color: #ddd;
+	border: none;
+	color: black;
+	padding: 20px 36px;
+	text-align: center;
+	font-size: 16px;
+	margin: 4px 2px;
+    transition: 0.7s ease;
+}
+#whitebutton:hover{
+	background-color: #000000;
+	color: white;
 }

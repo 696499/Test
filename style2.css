@@ -1,8 +1,9 @@
 body{ 
-background: #FEC1E3;
+background: #db0d44;
 margin:0; 
 }
-
+/*w3schools*/
+/*navagationbar*/
 ul {
   list-style-type: none;
   margin: 0;
@@ -23,7 +24,7 @@ li a {
   padding: 14px 16px;
   text-decoration: none;
 }
-
+/*navagation bar button*/
 li a:hover:not(.active) {
   background-color: #919091;
 }
@@ -31,8 +32,9 @@ li a:hover:not(.active) {
 .active {
   background-color: #FF01B2;
 }
+
 .button {
-  background-color: #ddd;
+ background-color: #ddd;
   border: none;
   color: black;
   padding: 20px 36px;
@@ -42,19 +44,22 @@ li a:hover:not(.active) {
   transition: 0.7s ease;
 }
 .button:hover{
-    background-color: #000000;
+  background-color: #000000;
   color: white;
 }
+
 #row{
   display: block;
-text-align: center; 
+text-align: center;
+margin-top: 20px; 
 }
 .A1{
   text-align: center;
+  color: white;
   
 }
 #As1{
-   background-color: #ddd;
+  background-color: #ddd;
   border: none;
   color: black;
   padding: 20px 36px;
