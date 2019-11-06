@@ -30,11 +30,29 @@
 		<p class="A1"> In this assignment I have to create a javascript function that returns the third andgle of a triangle when two are already given. <br>
 			Write two angles of a triangle and you will find out what the 3rd angle is!
 	</div>
+	
+		<form>
+			value 1: <input type="text" id="value1">
+			value 2: <input typw="text" id="value2">
+			Operator:
+			<select id="operator">
+				<option value ="add">Add</option>
+				<option value ="min">Minus</option>
+				<option value ="div">Divide</option>
+				<option value ="mul">Multiply</option>
+			</select>
+			<button type ="button" onclick="calc()">Calculate</button>
+        </form>
+
+		<div id="result"></div>
+
+
 	<div id="row">
 		<button onclick="myFunction()">Triangle</button>
 		<button onclick="century()">Century&Years</button>
 		<button onclick="integers()">Integers!</button>
 	</div>
+
 
 </body>
 </html>

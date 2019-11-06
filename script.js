@@ -7,7 +7,7 @@
  	alert("The third angle is:" + " " + a3);
  }
 
-  function century(){
+  function century (){
  	let year = parseInt (prompt("Write a year and I will tell you the century it belongs in!"));
  	let century1 = parseInt((year - 1) / 100) + 1;
  	alert("The century is" + " " + century1);
@@ -25,7 +25,7 @@ function integers(){
 	    else if (i % 10 == 0){
 	      console.log("Ten");
 	    }
-	    else if (i % 10 && 4 == 0){
+	    else if (i % 10 && i % 4 == 0){
 	    	console.log("TenFour");
 	    }
 	    else {
@@ -33,3 +33,4 @@ function integers(){
 	    }
 	}
 }
+
