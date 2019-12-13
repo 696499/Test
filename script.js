@@ -46,9 +46,9 @@ function encrypt(){
 function decrypt(){
 
 	let chars = {'!':'a', '@':'b', '#':'c', '$':'d','%':'e','^':'f', '&':'g', '*':'h', '(':'i', ')':'j', '-':'k', '+':'l', '/':'m', '>':'n', '<':'o', 'þ':'p', '◘':'q', '?':'r','{':'s','}':'t','☺':'u','|':'v','☻':'w','♥':'x', '•':'y', '♣':'z'}
-	let message = prompt('paste you encrypted message here!');
+	let message = prompt('paste your encrypted message here!');
 	text = message.replace(/[!@#$%^&*()-+/><þ◘?{}☺|☻♥•♣]/g, m => chars[m]);
-	document.getElementById("paster").innerHTML=text;
+	document.getElementById("symbol").innerHTML=text;
 }
 
 
