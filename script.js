@@ -37,10 +37,18 @@ function integers(){
 function encrypt(){
 
 
-	let chars = {'a:!', 'b:@', 'c:#', 'd:$','e:%','f:^', 'g:&', 'h:*', 'i:(', 'j:)', 'k:-', 'l:+', 'm:/', 'n:>', 'o:<', 'p:○', 'q:◘', 'r:?','s:{','t:}','u:☺','v:|','w:☻','x:♥', 'y:•', 'z:♣'}
+	let chars = {'a':'!', 'b':'@', 'c':'#', 'd':'$','e':'%','f':'^', 'g':'&', 'h':'*', 'i':'(', 'j':')', 'k':'-', 'l':'+', 'm':'/', 'n':'>', 'o':'<', 'p':'þ', 'q':'◘', 'r':'?','s':'{','t':'}','u':'☺','v':'|','w':'☻','x':'♥', 'y':'•', 'z':'♣'}
 	let message = prompt('write your message!');
 	text = message.replace(/[abcdefghijklmnopqrstuvwxyz]/g, m => chars[m]);
 	document.getElementById("ok").innerHTML=text;
+}
+
+function decrypt(){
+
+	let chars = {'!':'a', '@':'b', '#':'c', '$':'d','%':'e','^':'f', '&':'g', '*':'h', '(':'i', ')':'j', '-':'k', '+':'l', '/':'m', '>':'n', '<':'o', 'þ':'p', '◘':'q', '?':'r','{':'s','}':'t','☺':'u','|':'v','☻':'w','♥':'x', '•':'y', '♣':'z'}
+	let message = prompt('paste you encrypted message here!');
+	text = message.replace(/[!@#$%^&*()-+/><þ◘?{}☺|☻♥•♣]/g, m => chars[m]);
+	document.getElementById("paster").innerHTML=text;
 }
 
 
