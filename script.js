@@ -43,4 +43,8 @@ function encrypt(){
 	document.getElementById("ok").innerHTML=text;
 }
 
+function decrypt(){
+	let test = prompt('paste your result here')
+}
+
 
